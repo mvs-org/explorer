@@ -1,0 +1,17 @@
+{
+  "runtime_id": 8,
+  "types": {
+    "Address": "AccountIdAddress",
+    "LookupSource": "AccountIdAddress",
+    "Keys": {
+      "type": "struct",
+      "type_mapping": [
+         ["aura", "AccountId"],
+         ["grandpa", "AccountId"]
+      ]
+    },
+    "ContractExecResult": "ContractExecResultTo260"
+  },
+  "versioning": [
+  ]
+}
